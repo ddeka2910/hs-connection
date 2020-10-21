@@ -3,6 +3,11 @@
 # Use new container infrastructure to enable caching
 sudo: false
 
+os: linux
+arch:
+ - amd64
+ - ppc64le
+
 # Caching so the next build will be fast too.
 cache:
   directories:
